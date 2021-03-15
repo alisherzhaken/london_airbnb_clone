@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Write\ a\ description\ of\ class\ Main\ here.\n\ \n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=
+comment2.target=javafx.scene.Scene\ getLoginScene()
+comment2.text=\n\ Return\ login\ scene\n\ @return\ loginScene\n
+comment3.params=
+comment3.target=javafx.stage.Stage\ getStage()
+comment3.text=\n\ Return\ current\ stage\n\ @return\ primartyStage\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Main\ method\ to\ start\ the\ app\n
+numComments=5

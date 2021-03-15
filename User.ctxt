@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=User
+comment0.text=\n\ User\ class\ stores\ the\ information\ about\ the\ user,\ i.e.\ his/her\ first\ name,\ surname\n\n\ @author\ Alisher\ Zhaken,\ Adrian\ Surani,\ Andrei\ Cinca\ and\ Mahsum\ Kocabey\n\ @version\ 2020.03.26\n
+comment1.params=name\ surname\ email\ password
+comment1.target=User(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getSurname()
+comment4.params=
+comment4.target=java.lang.String\ getEmail()
+comment5.params=
+comment5.target=java.lang.String\ getPassword()
+comment6.params=user
+comment6.target=boolean\ equals(User)
+numComments=7

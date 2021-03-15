@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PropertyScene">
+   <children>
+      <Separator layoutX="391.0" layoutY="28.0" orientation="VERTICAL" prefHeight="409.0" prefWidth="18.0" />
+      <Separator layoutX="12.0" layoutY="436.0" prefHeight="3.0" prefWidth="780.0" />
+      <Separator layoutX="1.0" layoutY="30.0" prefHeight="3.0" prefWidth="800.0" />
+      <Text id = "tt" layoutX="106.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text id = "tt" layoutX="85.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text id = "tt" layoutX="40.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text id = "tt" layoutX="75.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host ID :">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text id = "tt" layoutX="54.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host Name :">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text id = "tt" layoutX="34.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price per Night :" wrappingWidth="102.9886474609375">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Pane layoutX="14.0" layoutY="456.0" prefHeight="27.0" prefWidth="203.0">
+         <children>
+            <Button fx:id="previousButton" layoutX="10.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#previousProperty" prefHeight="25.0" prefWidth="50.0" text="&lt;" />
+         </children>
+      </Pane>
+      <Pane layoutX="601.0" layoutY="454.0" prefHeight="32.0" prefWidth="203.0">
+         <children>
+            <Button fx:id="nextButton" layoutX="136.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#nextProperty" prefHeight="25.0" prefWidth="50.0" text="&gt;" />
+         </children>
+      </Pane>
+      <BorderPane layoutX="-1.0" layoutY="-4.0" prefHeight="25.0" prefWidth="214.0">
+         <left>
+            <Button id="backButton" fx:id="backButton" mnemonicParsing="false" onAction="#loadMapScene" prefHeight="50.0" prefWidth="40.0" text="&lt;&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="15.0" top="6.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+      </BorderPane>
+      <Text id = "tt" fx:id="priceLabel" layoutX="165.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text id = "tt" fx:id="hostNameLabel" layoutX="165.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="hostIdLabel" layoutX="165.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="nameLabel" layoutX="165.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="idLabel" layoutX="165.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="roomLabel" layoutX="562.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" layoutX="462.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Type :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" layoutX="464.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" layoutX="444.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum Stay :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" layoutX="443.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reviews Made :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" layoutX="422.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Review Made :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="availabilityLabel" layoutX="562.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="minimumStayLabel" layoutX="562.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="reviewsLabel" layoutX="562.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id = "tt" fx:id="lastReviewLabel" layoutX="551.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="googleMapsButton" layoutX="527.0" layoutY="381.0" mnemonicParsing="false" onAction="#viewPropertyOnGoogleMaps" text="View Property on Google Maps" />
+   </children>
+</Pane>

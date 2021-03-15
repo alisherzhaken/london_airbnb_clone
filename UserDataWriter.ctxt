@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UserDataWriter
+comment0.text=\n\ UserDataWriter\ is\ a\ class\ designed\ to\ add\ the\ details\ of\ the\ new\ user\ to\ the\ database\n\n\ @author\ Alisher\ Zhaken,\ Adrian\ Surani,\ Andrei\ Cinca\ and\ Mahsum\ Kocabey\n\ @version\ 2020.03.26\n
+comment1.params=user
+comment1.target=boolean\ addUser(User)
+comment1.text=\n\ Add\ user\ to\ the\ database\n
+numComments=2

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=LoginController
+comment0.text=\n\ LoginController\ is\ responsible\ for\ controlling\ the\ behaviour\ of\ the\ application\ during\ the\ login\ scene\ \n\n\ @author\ Adrian\ Surani,\ Alisher\ Zhaken,\ Mahsum\ Kocabey\ and\ Andrei\ Cinca\n\ @version\ 2020.03.27\n
+comment1.params=url\ rb
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment2.params=MouseEvent
+comment2.target=void\ handle(javafx.scene.input.MouseEvent)
+comment3.params=event
+comment3.target=void\ loadWelcomeScene(javafx.event.ActionEvent)
+comment3.text=\n\ Load\ welcome\ scene\ when\ loginButton\ is\ pressed\n
+comment4.params=
+comment4.target=javafx.scene.Scene\ getWelcomeScene()
+comment4.text=\n\ Returns\ welcome\ scene\n\ @return\ welcomeScene\n
+comment5.params=email\ password
+comment5.target=java.lang.String\ isVerified(java.lang.String,\ java.lang.String)
+comment5.text=\n\ Verify\ entered\ email\ and\ password\n\ @return\ true\ if\ the\ data\ is\ correct\n
+comment6.params=event
+comment6.target=void\ signUp(javafx.event.ActionEvent)
+comment6.text=\n\ Check\ the\ validity\ of\ the\ details\ of\ a\ new\ user\n\ Add\ the\ details\ of\ a\ new\ user\ to\ the\ database\n\ when\ "Sign\ Up"\ button\ is\ pressed\n
+comment7.params=t\ err
+comment7.target=void\ setP(javafx.scene.text.Text,\ java.lang.String)
+comment8.params=t\ err
+comment8.target=void\ threadErr(javafx.scene.text.Text,\ java.lang.String)
+numComments=9

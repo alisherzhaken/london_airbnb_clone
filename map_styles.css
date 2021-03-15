@@ -1,0 +1,30 @@
+#main {
+    -fx-background-image:  url("map_bg.jpg");
+    -fx-background-size: cover;
+}
+
+#button {
+    -fx-background-color: black;
+    -fx-text-fill: white;    
+}
+
+#button .text {
+    -fx-font-weight: bold;
+}
+
+#button:hover {
+    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.3), black);
+}
+
+#btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+#btn .text{
+    -fx-font-weight: bold;
+}
+
+#btn:hover {
+    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+}

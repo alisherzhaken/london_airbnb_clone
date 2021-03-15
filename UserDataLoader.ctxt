@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UserDataLoader
+comment0.text=\n\ UserDataLoader\ loads\ the\ user\ information\ from\ the\ database\ in\ the\ form\ of\ the\ list\n\n\ @author\ Alisher\ Zhaken,\ Adrian\ Surani,\ Mahsum\ Kocabey\ and\ Andrei\ Cinca\n\ @version\ 2020.03.27\n
+comment1.params=
+comment1.target=UserDataLoader()
+comment2.params=
+comment2.target=java.util.ArrayList\ load()
+comment2.text=\n\ Loads\ the\ information\ about\ users\ from\ database\n\ @return\ users\ List\ containing\ information\ about\ users\n
+numComments=3

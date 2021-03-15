@@ -1,0 +1,34 @@
+#pane {
+    -fx-background-image: url("login_bg.jpeg");
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    
+}
+
+.button .text {
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+}
+
+.label {
+    -fx-text-fill : white;
+}
+
+#text {
+    -fx-fill : white;
+}
+
+#text:hover {
+    -fx-underline: true;
+}
+
+#err {
+    -fx-fill : white;
+}
